@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/VivekWebsite/static/css/main.e34f93bf.css",
+    "main.js": "/VivekWebsite/static/js/main.c88c4712.js",
+    "static/media/edgeDetector.png": "/VivekWebsite/static/media/edgeDetector.2c3ffcf7f8942326e685.png",
+    "static/media/panaromicPicturesNew.png": "/VivekWebsite/static/media/panaromicPicturesNew.b38668d9223aabe67f15.png",
+    "static/media/pedestrianIdentifier.png": "/VivekWebsite/static/media/pedestrianIdentifier.1ce63af543c527806301.png",
+    "static/media/pytorchlogo.png": "/VivekWebsite/static/media/pytorchlogo.af1bc7f2f8a5c7806523.png",
+    "static/media/javalogo-new.jpg": "/VivekWebsite/static/media/javalogo-new.8a5f122ceb9efcc41f2b.jpg",
+    "static/media/Tensorflowlogo.png": "/VivekWebsite/static/media/Tensorflowlogo.b075ad5a7b139707f8bb.png",
+    "static/media/python-logo-new.png": "/VivekWebsite/static/media/python-logo-new.1de2637d0a9f496a2df9.png",
+    "static/media/vivekportfolioimg.png": "/VivekWebsite/static/media/vivekportfolioimg.00e3b153fac79bb93a52.png",
+    "static/media/awslogo.png": "/VivekWebsite/static/media/awslogo.ad9c49ac3f5ef138c61a.png",
+    "static/media/githublogo.png": "/VivekWebsite/static/media/githublogo.9f92ac3b66f1f0989ad2.png",
+    "static/media/databrickslogo.png": "/VivekWebsite/static/media/databrickslogo.6d0690f9149d5b5aa29b.png",
+    "static/media/rubylogo.png": "/VivekWebsite/static/media/rubylogo.c53602bfacc3802d9daa.png",
+    "index.html": "/VivekWebsite/index.html",
+    "main.e34f93bf.css.map": "/VivekWebsite/static/css/main.e34f93bf.css.map",
+    "main.c88c4712.js.map": "/VivekWebsite/static/js/main.c88c4712.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e34f93bf.css",
+    "static/js/main.c88c4712.js"
+  ]
+}
