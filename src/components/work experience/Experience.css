@@ -1,0 +1,84 @@
+.work-experience-header {
+  font-weight: bold;
+  color: white;
+  background-color: #1B263B;
+  font-size: 45px;
+  padding: 45px 0px;
+  text-align: center;
+}
+
+.work-experience-list {
+  margin-top: 40px;
+  color: #1B263B;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work-experience-card {
+  width: 70%;
+  background-color: #d4d4d4;
+  padding: 50px 50px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5;
+  height: 730px;
+}
+
+.work-experience-card .title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.work-experience-card .location, .work-experience-card .date {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.work-experience-card .exp {
+  margin-bottom: 23px;
+}
+
+.work-experience-card .descrip-span, .work-experience-card .achievement-span {
+  font-weight: bold;
+}
+
+.work-experience-card .achievement-entry {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 740px) {
+  .work-experience-card {
+    height: 550px;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .work-experience-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .work-experience-card {
+    height: 620px;
+  }
+}
+
+@media only screen and (min-width: 1340px) {
+  .work-experience-card {
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=Experience.css.map */

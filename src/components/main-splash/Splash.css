@@ -1,0 +1,105 @@
+.splash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0px;
+  color: #1B263B;
+}
+
+.splash img {
+  border-radius: 90px;
+  height: 270px;
+}
+
+.splash .text-section {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'splash-header splash-header' 'splash-descrip splash-descrip' 'interests education';
+}
+
+.splash .text-section .splash-header {
+  font-size: 40px;
+  text-align: center;
+}
+
+.splash .text-section .splash-descrip {
+  width: 350px;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.splash .splash-header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: splash-header;
+}
+
+.splash .splash-descrip {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: splash-descrip;
+}
+
+.splash .interests {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: interests;
+}
+
+.splash .education {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: education;
+}
+
+.splash .interests p, .splash .education p {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.splash .interests ul, .splash .education ul {
+  max-width: 80vw;
+}
+
+.splash .interests ul li, .splash .education ul li {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 740px) {
+  .splash {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .splash img {
+    border-radius: 90px;
+    height: 300px;
+  }
+  .splash .text-section {
+    margin-left: 5vw;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .splash img {
+    border-radius: 90px;
+    height: 400px;
+  }
+}
+/*# sourceMappingURL=Splash.css.map */

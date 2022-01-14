@@ -1,0 +1,141 @@
+.projects {
+  color: #1B263B;
+}
+
+.projects-header {
+  font-weight: bold;
+  color: white;
+  background-color: #1B263B;
+  font-size: 45px;
+  padding: 45px 0px;
+  text-align: center;
+}
+
+.project-entry {
+  background-color: #d4d4d4;
+  padding: 30px;
+  width: 400px;
+  margin: 30px 10px;
+}
+
+.project-description {
+  line-height: 1.5;
+  padding: 0px 20px 0px 40px;
+}
+
+.project-list {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0px;
+}
+
+.project-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-img {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.project-img img {
+  width: 80%;
+  margin-top: 20px;
+  height: 250px;
+}
+
+.spacing-margin {
+  margin-top: 30px;
+}
+
+.project-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project-skills .skills-header {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.project-skills .project-skill {
+  margin: 0px 5px;
+  text-decoration: none;
+  border: 1px solid #1B263B;
+  padding: 10px;
+  border-radius: 60px;
+  color: #1B263B;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-size: 11px;
+}
+
+.project-skills .project-skill:hover {
+  background-color: #1B263B;
+  color: white;
+}
+
+.link-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.link-section a {
+  text-decoration: none;
+}
+
+.more-details-link {
+  padding: 10px;
+  background-color: #1B263B;
+  color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 40px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-weight: 500;
+}
+
+.more-details-link:hover {
+  background-color: #222;
+  border: 1px solid #1B263B;
+}
+
+@media only screen and (min-width: 1040px) {
+  .project-list {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .project-entry {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 1540px) {
+  .project-list {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .project-entry {
+    width: 450px;
+  }
+}
+/*# sourceMappingURL=Projects.css.map */

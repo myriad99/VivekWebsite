@@ -1,0 +1,54 @@
+.contact-header {
+  font-weight: bold;
+  color: white;
+  background-color: #1B263B;
+  font-size: 45px;
+  padding: 45px 0px;
+  text-align: center;
+}
+
+.contact-entry {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  margin: 50px 0px;
+}
+
+.contact-entry .contact-info {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.contact-entry .contact-info div {
+  color: #1B263B;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.contact-entry .contact-info p {
+  font-size: 20px;
+}
+
+.portfolium a, .linkedin a {
+  color: #1B263B;
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1B263B;
+}
+
+@media only screen and (min-width: 1040px) {
+  .contact-entry {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1340px) {
+  .contact-entry {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

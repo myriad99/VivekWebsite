@@ -1,0 +1,142 @@
+.projects {
+    color: #1B263B;
+
+}
+
+.projects-header {
+    font-weight: bold;
+    color: white;
+    background-color: #1B263B;
+    font-size: 45px;
+    padding: 45px 0px;
+    text-align: center;
+}
+
+.project-entry {
+    background-color: #d4d4d4;
+    padding: 30px;
+    width: 400px;
+    margin: 30px 10px;
+     
+}
+
+.project-description {
+    
+    line-height: 1.5;
+    padding: 0px 20px 0px 40px;
+}
+
+
+.project-list {
+    display: grid;
+    justify-content: center;
+    
+    margin: 50px 0px;
+}
+
+.project-title {
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.project-img {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.project-img img {
+    width: 80%;
+    margin-top: 20px;
+    height: 250px;
+  
+    
+}
+
+.spacing-margin {
+    margin-top: 30px
+}
+
+.project-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .skills-header {
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .project-skill {
+        margin: 0px 5px;
+        text-decoration: none;
+        border: 1px solid #1B263B;
+        padding: 10px;
+        border-radius: 60px;
+        color: #1B263B;
+        transition: .5s;
+        font-size: 11px;
+        &:hover{
+            background-color: #1B263B;
+            color: white;
+        }
+    }
+}
+
+
+.link-section {
+    display: flex;
+    justify-content: center;
+    a {
+        text-decoration: none;
+       
+    }
+}
+
+
+.more-details-link {
+   
+    padding: 10px;
+    background-color: #1B263B;
+    color: white;
+    width: 150px;
+    text-align: center;
+    border-radius: 40px;    
+    transition: .5s;
+    font-weight: 500;
+    &:hover {
+        background-color: #222;
+ 
+        border: 1px solid #1B263B;
+    }
+}
+
+
+
+@media only screen and (min-width: 1040px) {
+    .project-list  {
+       grid-template-columns: repeat(2, 1fr);
+       justify-items: center;
+       
+    }
+
+    .project-entry {
+        width: 450px;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 1540px) {
+    .project-list  {
+        grid-template-columns: repeat(3, 1fr);
+         
+     }
+
+     .project-entry {
+        width: 450px;
+    }
+}
