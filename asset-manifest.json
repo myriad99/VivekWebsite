@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VivekWebsite/static/css/main.dfc9466b.css",
-    "main.js": "/VivekWebsite/static/js/main.34b94751.js",
+    "main.css": "/VivekWebsite/static/css/main.d9850d2c.css",
+    "main.js": "/VivekWebsite/static/js/main.702463ba.js",
     "static/media/edgeDetector.png": "/VivekWebsite/static/media/edgeDetector.2c3ffcf7f8942326e685.png",
     "static/media/panaromicPicturesNew.png": "/VivekWebsite/static/media/panaromicPicturesNew.b38668d9223aabe67f15.png",
     "static/media/pedestrianIdentifier.png": "/VivekWebsite/static/media/pedestrianIdentifier.1ce63af543c527806301.png",
@@ -15,11 +15,11 @@
     "static/media/databrickslogo.png": "/VivekWebsite/static/media/databrickslogo.6d0690f9149d5b5aa29b.png",
     "static/media/rubylogo.png": "/VivekWebsite/static/media/rubylogo.c53602bfacc3802d9daa.png",
     "index.html": "/VivekWebsite/index.html",
-    "main.dfc9466b.css.map": "/VivekWebsite/static/css/main.dfc9466b.css.map",
-    "main.34b94751.js.map": "/VivekWebsite/static/js/main.34b94751.js.map"
+    "main.d9850d2c.css.map": "/VivekWebsite/static/css/main.d9850d2c.css.map",
+    "main.702463ba.js.map": "/VivekWebsite/static/js/main.702463ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfc9466b.css",
-    "static/js/main.34b94751.js"
+    "static/css/main.d9850d2c.css",
+    "static/js/main.702463ba.js"
   ]
 }
